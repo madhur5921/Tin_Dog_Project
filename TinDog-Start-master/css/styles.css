@@ -1,0 +1,217 @@
+#title {
+
+    background-color: #ff4c68;
+color: #fff; /*changes the colour of our title*/
+
+}
+
+h1{
+    
+    font-family: "Montserrat-black";
+    font-size: 3.5rem; /* 1 rem = 16px && 1 rem = 100%*/
+    line-height: 1.5;
+
+}
+
+.container-fluid{
+
+    padding : 3% 15% 7%; /*applying padding 3% to top && bottom &&&& 15% to left & right && 7& to bottom*/
+}
+
+body{
+
+    font-family: "Montserrat"; /*changes the font of entire content */
+}
+
+/*brand name(tindog) present at navigation bar*/
+
+.navbar-brand{
+
+    font-family: "Ubuntu";
+    font-size: 3rem; /* 1 rem = 16px && 1 rem = 100%*/
+    font-weight: bold;
+}
+
+.navbar{
+
+    padding: 0 0 4.5rem; /* 1 rem = 16px && 1 rem = 100%    
+                               to give the space bw navigation bar && title*/
+}
+
+.nav-item{
+
+    padding: 0% 18px; /*applying padding 0% to top && bottom &&&& 18px to left & right*/ 
+}
+
+.nav-link{
+
+    font-size: 1.5rem;
+    font-family: "Montserrat-light";
+}
+
+.download-button{
+
+    margin: 5% 3% 5% 0%; /*margin bw buttons from top right left & bottom */
+}
+
+.title-image{
+
+    width: 20%;
+    transform: rotate(25deg); /*rotate the image clockwise*/
+    position: absolute;
+    right: 25%;
+}
+
+/*Features*/
+
+#features{
+
+    padding: 7% 15%;/*applying padding 7% to top && bottom &&&& 15% to left & right*/ 
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+.feature{
+
+    text-align: center;
+    padding: 2%;
+}
+
+h3{
+
+    font-family: "Montserrat-black";
+    font-weight: bold;
+}
+
+p{
+
+    color: #8f8f8f;
+}
+
+.icon{
+
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+
+    color: #ff4c68;
+}
+
+/*Testimonials*/
+
+#testimonials{
+
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.carousel-item{
+
+    padding: 7% 15%;
+}
+
+h2{
+
+    font-family: "Montserrat-bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonials-image{
+
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/*Press*/
+
+#press{
+
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3rem;
+    margin-bottom: 1rem;
+}
+
+.press-logo{
+
+    width: 15%;
+    margin: 20px 20px 50px; /* 20 from top 20 from left && right &&& 50 from bottom*/
+}
+
+/*Pricing section*/
+
+#pricing{
+
+    padding: 100px;
+    text-align: center;
+
+}
+
+.pricing-column{
+
+    padding: 3% 2%; /* 3% from top && bottom &&& 2& from left && right*/
+}
+
+@media (max-width : 992px){ /*media query points are used as a to put condition && here in this max width means with width less than 992px the following actions will take place on respective elements*/
+
+    .title-image{
+
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+
+    }
+
+    #title{
+
+        text-align: center;
+    
+    }
+}
+
+/*call to action*/
+
+#cta{
+
+    background-color: #ff4c68;
+    font-family: "Montsrrat-Black";
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    padding: 7% 10% 7% 10%;
+}
+
+.CTA-heading{
+
+    font-size: 80px;
+    padding-bottom: 5%;
+    
+}
+
+/*Footer*/
+
+#footer{
+
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 10% 7% 10%;
+}
+
+.footerp{
+
+    padding-top: 2%;
+    color: gray;
+    font-weight: bold;
+}
+
+.icons{
+
+    margin-right: 1%;
+
+}
